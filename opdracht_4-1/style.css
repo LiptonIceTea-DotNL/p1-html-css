@@ -1,0 +1,37 @@
+@font-face {
+    font-family: ftltlt;
+    src: url(/ftltlt-webfont.woff);
+}
+
+body{
+    font-family: ftltlt;
+}
+
+h2{
+    font-size: 56px;
+    color: #9000ff;
+    font-weight: bold;
+}
+
+.section-paragraph-one, p{
+    color: #0d0303;
+    font-size: 28px;
+}
+
+.section-paragraph-one{
+    font-weight: bold;
+}
+
+a{
+    color: #7272dd;
+    text-decoration: none;
+}
+
+img{
+    width: 400px;
+    border-radius: 10%;
+}
+
+img:hover{
+    opacity: 50%;
+}
