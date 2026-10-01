@@ -1,0 +1,134 @@
+@font-face {
+    font-family: ftltlt;
+    src: url(/ftltlt-webfont.woff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: ftltlt;
+}
+
+nav{
+    padding: 20px 10px;
+    background-color: #7272dd;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 60px; 
+}
+
+section{    
+    background-color: black;
+    color: white;
+    padding: 60px 70px;
+}
+
+.view-more{
+    background-color: black;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.discover-more{
+    background-color: #9000ff;;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+article{
+    background-color: #f5f7fa;
+    padding: 60px 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(5, 20%);
+}
+
+h2{
+    font-size: 30px;
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+.article-paragraph{
+    width: 50%;
+    grid-area: 2 / 1 / 3 / 3;
+}
+
+ul{
+    grid-area: 3 / 1 / 3 / 3;
+    padding: 25px; 
+}
+
+.header-paragraph{
+    width: 40%;
+}
+
+img{
+    height: 350px;
+    width: 275  px;
+    grid-area: 1 / 2 / 3 / 3;
+    padding: 20px 40px;
+}
+
+.mobile-tv-button{
+    grid-area: 4 / 1 / 5 / 2;
+    height: 40px;
+    width: 160px;
+    color: white;
+    background-color: black;
+    margin: 30px 5px;
+    border-radius: 10px;
+}
+
+.app-button, .google-button{
+    padding: 10px 30px;
+    margin: 5px 5px;
+    color: white;
+    background-color: #9000ff;
+    border-color: white; 
+}
+
+footer{
+    padding: 10px 10px;
+    background-color: #9000ff;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+}
+
+.app-button{
+    grid-column-start: 9;
+    grid-column-end: 10;
+}
+
+.google-button{
+    grid-column-start: 8;
+    grid-column-end: 9;
+}
+
+.about-link{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 20px 10px;
+}
+
+.tos-link{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    padding: 20px 10px;
+}
+
+.privacy-link{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    padding: 20px 10px;
+}
