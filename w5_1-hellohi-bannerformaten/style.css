@@ -1,0 +1,306 @@
+.stage {
+    position: relative;
+    cursor: pointer;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.banner-size{ 
+    width: 300px; 
+    height: 250px; 
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);
+}
+
+.purple, .purple-2, .purple-3, .gray, .gray-2, .gray-3, .pink, .pink-2, .pink-3{
+    padding-left: 20px;
+}
+
+.purple{
+    height: 7px;    
+    top: 15px;
+    left: 10px;
+    background-color: #9000ff;
+    position: absolute;
+}
+
+.gray{
+    height: 7px;
+    top: 15px;
+    left: 35px;
+    background-color: #55559f;
+    position: absolute;
+}
+
+.pink{
+    height: 7px;
+    top: 15px;
+    left: 60px;
+    background-color: #b0b0eb;
+    position: absolute;
+}
+
+.sim{
+    height: 100px;
+    grid-area: 2 / 8 / 4 / 10;
+}
+
+.hi{
+    height: 30px;
+    grid-area: 2 / 5 / 4 / 7;
+}
+
+p, h1{
+    color: white;
+}
+
+.hallo{
+    grid-area: 1 / 1 / 3 / 3;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+.internet{
+    grid-area: 3 / 1 / 5 / 8;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.subscription{
+    grid-area: 4 / 1 / 6 / 9;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.unlimited{
+    grid-area: 5 / 1 / 7 / 9;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.monthly{
+    grid-area: 6 / 1 / 7 / 9;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.speed{
+    grid-area: 7 / 1 / 9 / 9;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.button, .button-2, .button-3{
+    text-align: center; 
+    background-color: #7272dd;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    z-index: 1;
+}
+
+.button:hover, .button-2:hover, .button-3:hover{
+    transform: scale(1.1);
+}
+
+.button{
+    grid-area: 8 / 6 / 11 / 11;
+    margin: 15px 15px;
+}
+
+.button-2{
+    grid-area: 9 / 3 / 10 / 9;
+}
+
+.button-3{
+    grid-area: 4 / 9 / 7 / 10;
+}
+
+.banner-size-2{ 
+    width: 300px; 
+    height: 600px; 
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);
+    margin-top: 30px;
+}
+
+.purple-2{
+    height: 7px;
+    top: 20px;
+    left: 20px;
+    background-color: #9000ff;
+    position: absolute;
+}
+
+.gray-2{
+    height: 7px;
+    top: 20px;
+    left: 45px;
+    background-color: #55559f;
+    position: absolute;
+}
+
+.pink-2{
+    height: 7px;
+    top: 20px;
+    left: 70px;
+    background-color: #b0b0eb;
+    position: absolute;
+}
+
+.hallo-2{
+    grid-area: 1 / 1 / 3 / 3;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.hi-2{
+    height: 60px;
+    margin-top: 30px;
+    grid-area: 1 / 7 / 3 / 8;
+}
+
+.internet-2{
+    grid-area: 2 / 2 / 5 / 9;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.subscription-2{
+    grid-area: 3 / 2 / 5 / 9; 
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+
+.sim-2{
+    transform: rotate(90deg);
+    height: 175px;
+    grid-area: 3 / 3 / 5 / 5;
+    margin-top: 30px;
+}
+
+.unlimited-2{
+    grid-area: 6 / 2 / 8 / 9;
+}
+
+.monthly-2{
+    grid-area: 6 / 2 / 8 / 9;
+    margin-top: 45px;
+}
+
+.speed-2{
+    grid-area: 7 / 2 / 9 / 9;
+}
+
+.banner-size-3{
+    margin-top: 30px;
+    width: 970px; 
+    height: 250px; 
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);    
+}
+
+.purple-3{
+    height: 7px;
+    top: 30px;
+    left: 30px;
+    background-color: #9000ff;
+    position: absolute;
+}
+
+.gray-3{
+    height: 7px;
+    top: 30px;
+    left: 55px;
+    background-color: #55559f;
+    position: absolute;
+}
+
+.pink-3{
+    height: 7px;
+    top: 30px;
+    left: 80px;
+    background-color: #b0b0eb;
+    position: absolute;
+}
+
+.hallo-3{
+    grid-area: 1 / 1 / 3 / 3;
+    font-size: 75px;
+    margin-left: 30px;
+}
+
+.internet-3{
+    grid-area: 5 / 1 / 7 / 6;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.subscription-3{
+    grid-area: 7 / 1 / 9 / 5;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.hi-3{
+    grid-area: 2 / 3 / 4 / 5;
+    margin-left: 30px;
+}
+
+.sim-3{
+    grid-area: 3 / 5 / 5 / 7;
+}
+
+.unlimited-3{
+    grid-area: 5 / 6 / 7 / 8;
+    margin-left: 50px;
+}
+
+.monthly-3{
+    grid-area: 6 / 6 / 8 / 8;
+    margin-left: 50px;
+}
+
+.speed-3{
+    grid-area: 7 / 6 / 8 / 8;
+    margin-left: 50px;
+}
+
+.circle, .circle-2, .circle-3{
+    position: absolute;
+    background-color: #7272dd;
+    border-radius: 100%;
+    z-index: 0;
+}
+
+.circle{
+    top: 150px;
+    left: 125px;
+    height: 200px;
+    width: 300px;
+}
+
+.circle-2{
+    bottom: -50px;
+    left: -40px;
+    height: 240px;
+    width: 400px;
+}
+
+.circle-3{
+    height: 400px;
+    width: 350px;
+    right: -100px;
+    top: -20px;
+}
