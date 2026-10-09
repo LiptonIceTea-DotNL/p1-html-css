@@ -1,0 +1,33 @@
+.flexbox{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.blue{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: 0 30px;
+}
+
+.red{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 0 30px;
+}
+
+.black{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    margin: 0 30px;
+}
+
+.green{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    margin: 0 30px;
+}
